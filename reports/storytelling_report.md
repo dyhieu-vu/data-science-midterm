@@ -25,7 +25,7 @@ The dashboard is designed as an evidence explorer, not a league table:
 2. **Duration distribution** describes only the 16 records with scalar durations. The violin view is exploratory because the sample is small and values are discrete.
 3. **Program–course network** shows only the course names captured in the available excerpts. It is a partial-evidence view, not a measure of curriculum completeness.
 4. **Missingness and evidence sections** show where comparisons are blocked. Missing values are unknown in this dataset; they are not equivalent to zero, false, or “not offered.”
-5. **Scatter/regression, correlation heatmap, and time trend** are withheld where the current data do not support a defensible analysis. There are only two duration–credit pairs before applying credit-system comparability, and the largest single credit-system group has one pair. Evidence timestamps currently represent one distinct date, not a repeated time series.
+5. **Real-data relationship analyses** remain withheld where the current data do not support a defensible conclusion: there are only two duration–credit pairs before applying credit-system comparability, and the largest single credit-system group has one pair. Evidence timestamps represent one distinct date, not a repeated time series. To demonstrate the required visualization methods without misrepresenting evidence, the dashboard now has a separate, clearly labeled **synthetic demo area** with interactive Plotly Scatter + OLS regression, Correlation Heatmap, and Line/Area charts. These are teaching examples only and are not findings about real universities.
 
 ### Data quality and method
 
@@ -44,12 +44,12 @@ The dataset is small and dependent on which official pages could be reached and 
 1. **Resolve collection failures safely.** Review the ten `source_error` records one by one, retry only when appropriate, and document whether the issue is transient, a moved page, a blocked request, or another cause. Do not repeatedly hammer a failing site.
 2. **Manually resolve four identity reviews.** Save official-source excerpts and the exact page URL before changing a status.
 3. **Prioritise attribute-level evidence.** Tuition and currency are currently unavailable; duration, award title, language, credit system, and curriculum each need their own supporting evidence rather than inheriting confidence from identity verification.
-4. **Keep comparisons conditional.** Only plot statistical relationships when enough comparable observations exist. If the evidence remains insufficient, report that limitation instead of generating synthetic values.
+4. **Keep real and synthetic analyses separate.** Only draw conclusions about actual programs when enough comparable observations exist. Synthetic values may illustrate chart mechanics in a separate, prominent demo area, but must be labeled and must never be mixed into the real-data findings.
 5. **Re-run validation and tests after changes.** Record the actual command and result, and distinguish local test results from browser interaction checks.
 
 ### Conclusion
 
-The project’s strongest result is a transparent, traceable registry with explicit uncertainty—not a claim that it describes the entire Vietnamese higher-education market. Its next improvement should be better source coverage and attribute verification. Until then, the most responsible story is about **what is known, what remains unknown, and why those distinctions matter**.
+The project’s strongest result is a transparent, traceable registry with explicit uncertainty—not a claim that it describes the entire Vietnamese higher-education market. Its next improvement should be better source coverage and attribute verification. Until then, the most responsible story is about **what is known, what remains unknown, and why those distinctions matter**. The dashboard also includes three clearly labeled synthetic interactive charts to demonstrate the required techniques; their companion CSV files explicitly mark every row as synthetic and are not part of the real registry.
 
 ---
 
