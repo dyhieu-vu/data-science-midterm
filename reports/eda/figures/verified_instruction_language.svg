@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="30" font-size="20" font-family="sans-serif" font-weight="bold">Officially evidenced instruction language</text>
+<text x="238" y="87.4" text-anchor="end" font-size="14" font-family="sans-serif">English</text>
+<rect x="250" y="57.0" width="280.0" height="42.0" fill="#3478a8"/>
+<text x="538.0" y="87.4" font-size="14" font-family="sans-serif">2</text>
+<text x="238" y="139.4" text-anchor="end" font-size="14" font-family="sans-serif">Vietnamese</text>
+<rect x="250" y="109.0" width="560.0" height="42.0" fill="#3478a8"/>
+<text x="818.0" y="139.4" font-size="14" font-family="sans-serif">4</text>
+</svg>

@@ -1,0 +1,21 @@
+﻿program_id,university_id,university_name,program_name,source_id,source_url,file_name
+VN001_AI,VN001,University of Engineering and Technology VNU Hanoi,Artificial Intelligence Honors Program,VN001,https://uet.vnu.edu.vn/chuong-trinh-dao-tao-nganh-tri-tue-nhan-tao-16/,VN001_UET.txt
+VN002_DS_AI,VN002,British University Vietnam,Data Science and Artificial Intelligence,VN002,https://www.buv.edu.vn/undergraduate/bsc-hons-data-science-artificial-intelligence/,VN002_BUV.txt
+VN003_AI,VN003,University of Science Viet Nam National University Ho Chi Minh City,Artificial Intelligence,VN003,https://www.fit.hcmus.edu.vn/beta/undergraduate/artificial-intelligence,VN003_HCMUS.txt
+VN004_AI,VN004,Hoa Sen University,Artificial Intelligence,VN004,https://www.hoasen.edu.vn/cntt/en/education/ai/,VN004_HOASEN.txt
+VN005_AI_MAJOR,VN005,Swinburne Vietnam,Artificial Intelligence Major,VN005,https://swinburne-vn.edu.vn/en/course/artificial-intelligence/,VN005_SWINBURNE.txt
+VN006_DS,VN006,University of Science VNU Hanoi,Data Science,VN006,https://tuyensinh.hus.vnu.edu.vn/dai-hoc/nganh-hoc/toan-toan-ung-dung-va-tin-hoc/khoa-hoc-du-lieu,
+VN007_DSE,VN007,University of Engineering and Technology VNU Hanoi,Data Science and Engineering,VN007,https://uet.vnu.edu.vn/chuong-trinh-dao-tao-khoa-hoc-va-ky-thuat-du-lieu-nganh-khoa-hoc-du-lieu/,
+VN008_DS,VN008,VinUniversity,Data Science,VN008,https://cecs.vinuni.edu.vn/undergraduate/data-science/,
+VN009_AI,VN009,University of Information Technology VNU HCMC,Artificial Intelligence,VN009,https://portal.uit.edu.vn/chuong-trinh-dao-tao/cu-nhan-nganh-tri-tue-nhan-tao-khoa-20-2025,
+VN010_DS,VN009,University of Information Technology VNU HCMC,Data Science,VN010,https://portal.uit.edu.vn/chuong-trinh-dao-tao/cu-nhan-nganh-khoa-hoc-du-lieu-khoa-20-2025,
+VN011_AI,VN011,Posts and Telecommunications Institute of Technology,Artificial Intelligence,VN011,https://daotao.ptit.edu.vn/chuong-trinh-dao-tao/chuong-trinh-tri-tue-nhan-tao/,
+VN012_AI,VN012,Dong Nai Technology University,Artificial Intelligence,VN012,https://dntu.edu.vn/tri-tue-nhan-tao,
+VN013_AI,VN013,Dong A University,Artificial Intelligence,VN013,https://cntt.donga.edu.vn/ctdt/ttnt-2025,
+VN014_AI,VN014,Tra Vinh University,Artificial Intelligence,VN014,https://daotao.tvu.edu.vn/index.php/phong-dao-t-o/dai-hoc/khoa-ktcn/tri-tue-nhan-tao,
+VN015_DS,VN015,Can Tho University of Technology,Data Science,VN015,https://quanlydaotao.ctuet.edu.vn/chi-tiet/76,
+VN016_DS,VN016,University of Finance and Marketing,Data Science,VN016,https://fds.ufm.edu.vn/bachelor-of-data-science-72.html,
+VN017_DS,VN017,Ton Duc Thang University,Data Science,VN017,https://fms.tdtu.edu.vn/giao-duc/dai-hoc/khoa-hoc-du-lieu,
+VN018_DS,VN018,Van Lang University,Data Science,VN018,https://www.vlu.edu.vn/en/academics/majors/data-science,
+VN019_DS,VN019,University of Economics and Finance Ho Chi Minh City,Data Science,VN019,https://www.uef.edu.vn/fit/academic-programs/data-science-35042,
+VN020_DS,VN020,Tan Tao University,Data Science,VN020,https://ttu.edu.vn/about/program-proposal/data-science/?lang=en,

@@ -1,0 +1,8 @@
+﻿source_id,source_name,source_url,http_status,content_type,robots_txt_url,robots_status,allowed_by_robots,error
+VN001,University of Engineering and Technology VNU Hanoi,https://uet.vnu.edu.vn/chuong-trinh-dao-tao-nganh-tri-tue-nhan-tao-16/,200,text/html; charset=UTF-8,https://uet.vnu.edu.vn/robots.txt,retrieved,True,
+VN002,British University Vietnam,https://www.buv.edu.vn/undergraduate/bsc-hons-data-science-artificial-intelligence/,200,text/html; charset=utf-8,https://www.buv.edu.vn/robots.txt,retrieved,True,
+INT001,Wikidata Query Service,https://query.wikidata.org/sparql,200,application/rdf+xml,https://query.wikidata.org/robots.txt,retrieved,False,
+INT002,UNESCO Institute for Statistics,https://databrowser.uis.unesco.org/resources/bulk,200,text/html; charset=utf-8,https://databrowser.uis.unesco.org/robots.txt,not_found,,
+VN003,Ho Chi Minh City University of Science,https://www.fit.hcmus.edu.vn/beta/undergraduate/artificial-intelligence,200,text/html; charset=utf-8,https://www.fit.hcmus.edu.vn/robots.txt,not_found,,
+VN004,Hoa Sen University,https://www.hoasen.edu.vn/cntt/en/education/ai/,200,text/html; charset=UTF-8,https://www.hoasen.edu.vn/robots.txt,retrieved,True,
+VN005,Swinburne Vietnam,https://swinburne-vn.edu.vn/en/course/artificial-intelligence/,200,text/html; charset=UTF-8,https://swinburne-vn.edu.vn/robots.txt,retrieved,True,

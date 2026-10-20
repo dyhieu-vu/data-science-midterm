@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="30" font-size="20" font-family="sans-serif" font-weight="bold">Collection and identity stages (counts are nested stages)</text>
+<text x="238" y="80.1" text-anchor="end" font-size="14" font-family="sans-serif">HTTP 2xx response</text>
+<rect x="250" y="57.0" width="560.0" height="31.3" fill="#3478a8"/>
+<text x="818.0" y="80.1" font-size="14" font-family="sans-serif">10</text>
+<text x="238" y="121.4" text-anchor="end" font-size="14" font-family="sans-serif">Page content available</text>
+<rect x="250" y="98.3" width="560.0" height="31.3" fill="#3478a8"/>
+<text x="818.0" y="121.4" font-size="14" font-family="sans-serif">10</text>
+<text x="238" y="162.8" text-anchor="end" font-size="14" font-family="sans-serif">Program + university evidence</text>
+<rect x="250" y="139.7" width="336.0" height="31.3" fill="#3478a8"/>
+<text x="594.0" y="162.8" font-size="14" font-family="sans-serif">6</text>
+</svg>

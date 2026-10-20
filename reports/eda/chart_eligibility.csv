@@ -1,0 +1,10 @@
+﻿chart,columns,program_count,programs_excluded,edge_count,observation_count,limitation,status
+Histogram: scalar duration,duration_years + official evidence,16,4,0,16,16 verified scalar values; interval durations excluded. Descriptive subset only.,available
+Boxplot: scalar duration,duration_years + official evidence,16,4,0,16,Same small scalar-duration subset; interval durations remain separate.,available
+Violin: scalar duration,duration_years + official evidence,16,4,0,16,"Kernel density is unstable for this small, discrete sample; label exploratory.",exploratory
+Scatter + regression: duration vs credits,"duration_years, total_credits, credit_system",0,20,0,2,Only 2 paired IDs; largest single credit-system subset has 1. Fewer than 5 comparable pairs.,insufficient
+Correlation heatmap,verified numeric attributes,0,20,0,0,No adequate matrix of comparable numeric attributes with sufficient pairwise coverage; mixed credit systems excluded.,insufficient
+Sunburst: identity status to program,"verification_status, program_id",20,0,0,20,Record-level snapshot counts; each listed program contributes one record.,available
+Network: program to evidenced course names,"program_id, curriculum_course_list",5,15,21,21,"Only captured course-list excerpts; edge_count counts program-course links, not programs. Lists are partial, not full curricula.",available
+Missing attribute values,"degree_level, duration_years, instruction_language, tuition_amount, tuition_currency, curriculum_text, duration_range_years, total_credits, credit_system, award_title, instruction_language_share, curriculum_course_list",20,0,0,20,Missingness describes this snapshot only; missing does not mean false or absent from the program.,available
+Line/area: change over time,checked_at_utc,0,20,0,0,Verified evidence is recorded on 1 distinct date(s); insufficient comparable repeated observations for a trend.,insufficient

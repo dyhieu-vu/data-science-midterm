@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="24" y="30" font-size="20" font-family="sans-serif" font-weight="bold">Programs with course-list evidence captured</text>
+<text x="238" y="87.4" text-anchor="end" font-size="14" font-family="sans-serif">Evidence captured</text>
+<rect x="250" y="57.0" width="186.7" height="42.0" fill="#3478a8"/>
+<text x="444.7" y="87.4" font-size="14" font-family="sans-serif">5</text>
+<text x="238" y="139.4" text-anchor="end" font-size="14" font-family="sans-serif">No verified course-list evidence</text>
+<rect x="250" y="109.0" width="560.0" height="42.0" fill="#3478a8"/>
+<text x="818.0" y="139.4" font-size="14" font-family="sans-serif">15</text>
+</svg>
