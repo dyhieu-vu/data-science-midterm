@@ -44,6 +44,13 @@ function renderDurations(rows){
   const vals=filteredEvidence(D.duration).sort((a,b)=>a.value_num-b.value_num);
   if(!vals.length){['histogram','boxplot','violin'].forEach(id=>document.getElementById(id).innerHTML='<div class="unavailable">No verified scalar values in current filter.</div>');setDurationRendererStatus('No scalar duration values match the current filters.');return}
   if(!window.Plotly){renderDurationsFallback(rows);setDurationRendererStatus('SVG fallback active — Plotly.js could not load. Check internet/CDN access.');return}
+  // The initial render may have used SVG while the deferred Plotly bundle was still loading.
+  // Purge each chart container before plotting so SVG fallback markup cannot remain underneath.
+  ['histogram','boxplot','violin'].forEach(id=>{
+    const node=document.getElementById(id);
+    if(window.Plotly.purge)window.Plotly.purge(node);
+    node.replaceChildren();
+  });
   setDurationRendererStatus('Rendered with Plotly.js · interactive charts');
   const values=vals.map(x=>x.value_num);
   const commonLayout={paper_bgcolor:'#ffffff',plot_bgcolor:'#ffffff',font:{family:'Inter, Segoe UI, Arial, sans-serif',color:'#13243a',size:12},margin:{l:48,r:18,t:24,b:48},autosize:true,showlegend:false};
