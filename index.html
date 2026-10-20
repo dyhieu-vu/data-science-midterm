@@ -90,7 +90,7 @@ window.addEventListener('plotly-ready',redrawDurationChartsWhenPlotlyReady);
     <div>
       <p class="eyebrow">EXPLORATORY EXTENSION · SYNTHETIC DATA</p>
       <h2 id="demo-title">Exploring patterns — demo only</h2>
-      <p class="section-intro">Hai biểu đồ dưới đây dùng dữ liệu tổng hợp để minh họa cách đọc Scatter + hồi quy và Line/Area. Chúng không phải kết quả thực nghiệm, không được dùng để kết luận về các chương trình đại học trong bộ dữ liệu.</p>
+      <p class="section-intro">Ba biểu đồ tương tác dưới đây dùng dữ liệu tổng hợp để minh họa cách đọc Scatter + hồi quy và Line/Area. Chúng không phải kết quả thực nghiệm, không được dùng để kết luận về các chương trình đại học trong bộ dữ liệu.</p>
     </div>
     <span class="demo-badge">SYNTHETIC DEMO</span>
   </div>
@@ -100,32 +100,7 @@ window.addEventListener('plotly-ready',redrawDurationChartsWhenPlotlyReady);
         <div><h3>Scatter + hồi quy tuyến tính</h3><p>Minh họa quan hệ giữa thời lượng học và tổng tín chỉ</p></div>
         <span class="mini-tag">24 điểm giả lập</span>
       </div>
-      <div class="chart-wrap">
-        <svg viewBox="0 0 620 340" role="img" aria-label="Biểu đồ phân tán giả lập thời lượng học và tổng tín chỉ, có đường hồi quy minh họa">
-          <rect x="0" y="0" width="620" height="340" rx="12" fill="#fbfcfe"/>
-          <g stroke="#e4eaf2" stroke-width="1">
-            <line x1="70" y1="55" x2="570" y2="55"/><line x1="70" y1="105" x2="570" y2="105"/>
-            <line x1="70" y1="155" x2="570" y2="155"/><line x1="70" y1="205" x2="570" y2="205"/>
-            <line x1="70" y1="255" x2="570" y2="255"/>
-            <line x1="170" y1="35" x2="170" y2="275"/><line x1="270" y1="35" x2="270" y2="275"/>
-            <line x1="370" y1="35" x2="370" y2="275"/><line x1="470" y1="35" x2="470" y2="275"/>
-          </g>
-          <g stroke="#66758a" stroke-width="1.5"><line x1="70" y1="35" x2="70" y2="275"/><line x1="70" y1="275" x2="570" y2="275"/></g>
-          <g fill="#596579" font-size="12"><text x="58" y="259" text-anchor="end">100</text><text x="58" y="209" text-anchor="end">120</text><text x="58" y="159" text-anchor="end">140</text><text x="58" y="109" text-anchor="end">160</text><text x="58" y="59" text-anchor="end">180</text>
-            <text x="170" y="296" text-anchor="middle">3.5</text><text x="270" y="296" text-anchor="middle">4.0</text><text x="370" y="296" text-anchor="middle">4.5</text><text x="470" y="296" text-anchor="middle">5.0</text>
-            <text x="320" y="326" text-anchor="middle">Thời lượng (năm)</text><text x="18" y="155" transform="rotate(-90 18 155)" text-anchor="middle">Tổng tín chỉ (giả lập)</text></g>
-          <line x1="115" y1="230" x2="535" y2="78" stroke="#d97706" stroke-width="3" stroke-dasharray="7 5"/>
-          <g fill="#2563eb" fill-opacity=".82" stroke="#ffffff" stroke-width="1.5">
-            <circle cx="120" cy="230" r="6"/><circle cx="145" cy="215" r="6"/><circle cx="165" cy="240" r="6"/><circle cx="180" cy="190" r="6"/>
-            <circle cx="195" cy="205" r="6"/><circle cx="210" cy="180" r="6"/><circle cx="225" cy="220" r="6"/><circle cx="240" cy="170" r="6"/>
-            <circle cx="255" cy="185" r="6"/><circle cx="270" cy="150" r="6"/><circle cx="285" cy="195" r="6"/><circle cx="300" cy="160" r="6"/>
-            <circle cx="315" cy="145" r="6"/><circle cx="330" cy="175" r="6"/><circle cx="345" cy="125" r="6"/><circle cx="365" cy="150" r="6"/>
-            <circle cx="380" cy="110" r="6"/><circle cx="400" cy="140" r="6"/><circle cx="420" cy="100" r="6"/><circle cx="440" cy="120" r="6"/>
-            <circle cx="460" cy="85" r="6"/><circle cx="485" cy="110" r="6"/><circle cx="510" cy="70" r="6"/><circle cx="535" cy="90" r="6"/>
-          </g>
-          <g font-size="12"><line x1="375" y1="20" x2="400" y2="20" stroke="#d97706" stroke-width="3" stroke-dasharray="7 5"/><text x="407" y="24" fill="#596579">Đường xu hướng minh họa</text></g>
-        </svg>
-      </div>
+      <div class="chart-wrap"><div id="demoScatter" class="plotly-demo-chart" role="img" aria-label="Scatter plot interactive with linear regression using clearly labeled synthetic data"></div></div>
       <p class="demo-note"><strong>Cách đọc:</strong> đường hồi quy cho thấy xu hướng dương trong bộ dữ liệu giả lập. Đây không phải bằng chứng về tương quan thực giữa thời lượng và tín chỉ của các chương trình được khảo sát.</p>
     </article>
     <article class="demo-card">
@@ -133,22 +108,21 @@ window.addEventListener('plotly-ready',redrawDurationChartsWhenPlotlyReady);
         <div><h3>Line / Area theo thời gian</h3><p>Minh họa biến động số hồ sơ ghi nhận qua các tháng</p></div>
         <span class="mini-tag">24 tháng giả lập</span>
       </div>
-      <div class="chart-wrap">
-        <svg viewBox="0 0 620 340" role="img" aria-label="Biểu đồ đường và vùng giả lập về số hồ sơ ghi nhận theo tháng">
-          <defs><linearGradient id="demoAreaFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0d9488" stop-opacity=".32"/><stop offset="100%" stop-color="#0d9488" stop-opacity=".03"/></linearGradient></defs>
-          <rect x="0" y="0" width="620" height="340" rx="12" fill="#fbfcfe"/>
-          <g stroke="#e4eaf2" stroke-width="1"><line x1="70" y1="55" x2="570" y2="55"/><line x1="70" y1="105" x2="570" y2="105"/><line x1="70" y1="155" x2="570" y2="155"/><line x1="70" y1="205" x2="570" y2="205"/><line x1="70" y1="255" x2="570" y2="255"/></g>
-          <g stroke="#66758a" stroke-width="1.5"><line x1="70" y1="35" x2="70" y2="275"/><line x1="70" y1="275" x2="570" y2="275"/></g>
-          <path d="M70 245 L92 230 L114 237 L136 210 L158 222 L180 195 L202 205 L224 180 L246 188 L268 160 L290 172 L312 145 L334 155 L356 130 L378 138 L400 112 L422 120 L444 95 L466 105 L488 78 L510 88 L532 62 L554 72 L570 55 L570 275 L70 275 Z" fill="url(#demoAreaFill)"/>
-          <path d="M70 245 L92 230 L114 237 L136 210 L158 222 L180 195 L202 205 L224 180 L246 188 L268 160 L290 172 L312 145 L334 155 L356 130 L378 138 L400 112 L422 120 L444 95 L466 105 L488 78 L510 88 L532 62 L554 72 L570 55" fill="none" stroke="#0d9488" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
-          <g fill="#596579" font-size="12"><text x="58" y="259" text-anchor="end">0</text><text x="58" y="209" text-anchor="end">5</text><text x="58" y="159" text-anchor="end">10</text><text x="58" y="109" text-anchor="end">15</text><text x="58" y="59" text-anchor="end">20</text><text x="70" y="298">T1</text><text x="180" y="298" text-anchor="middle">T6</text><text x="312" y="298" text-anchor="middle">T12</text><text x="444" y="298" text-anchor="middle">T18</text><text x="570" y="298" text-anchor="end">T24</text><text x="320" y="326" text-anchor="middle">Tháng trong chuỗi giả lập</text><text x="18" y="155" transform="rotate(-90 18 155)" text-anchor="middle">Số hồ sơ (giả lập)</text></g>
-        </svg>
-      </div>
+      <div class="chart-wrap"><div id="demoLineArea" class="plotly-demo-chart" role="img" aria-label="Interactive line and area chart using clearly labeled synthetic monthly data"></div></div>
       <p class="demo-note"><strong>Cách đọc:</strong> chuỗi minh họa tăng dần theo thời gian. Bộ dữ liệu thực hiện tại chỉ có một ngày ghi nhận, vì vậy chưa thể xác định xu hướng thời gian thật.</p>
+    </article>
+
+    <article class="demo-card">
+      <div class="demo-card-head">
+        <div><h3>Correlation Heatmap</h3><p>Ma trận tương quan giữa các biến trong bộ dữ liệu mô phỏng</p></div>
+        <span class="mini-tag">24 bản ghi giả lập</span>
+      </div>
+      <div class="chart-wrap"><div id="demoCorrelation" class="plotly-demo-chart" role="img" aria-label="Interactive correlation heatmap using clearly labeled synthetic data"></div></div>
+      <p class="demo-note"><strong>Cách đọc:</strong> hệ số Pearson từ −1 đến +1 mô tả tương quan tuyến tính trong dữ liệu mô phỏng. Không diễn giải các hệ số này như phát hiện thực tế về chương trình đại học.</p>
     </article>
   </div>
   <div class="method-callout">
-    <strong>Nguyên tắc diễn giải:</strong> dữ liệu tổng hợp chỉ dùng để trình bày kỹ thuật trực quan hóa. Khi báo cáo kết quả nghiên cứu, chỉ kết luận từ dữ liệu có nguồn và bằng chứng kiểm chứng được.
+    <strong>Nguyên tắc diễn giải:</strong> dữ liệu tổng hợp chỉ dùng để trình bày kỹ thuật trực quan hóa. Khi báo cáo kết quả nghiên cứu, chỉ kết luận từ dữ liệu có nguồn và bằng chứng kiểm chứng được. Hai tệp CSV mô phỏng có thể tải tại <a href="data/processed/synthetic_visualization_demo.csv">bộ dữ liệu 24 chương trình giả lập</a> và <a href="data/processed/synthetic_time_series_demo.csv">chuỗi 24 tháng giả lập</a>.
   </div>
 </section>
 <style>
@@ -171,5 +145,80 @@ window.addEventListener('plotly-ready',redrawDurationChartsWhenPlotlyReady);
 @media(max-width:850px){.demo-grid{grid-template-columns:1fr}.storytelling-demo .section-heading{display:block}.demo-badge{display:inline-block;margin-top:12px}}
 @media print{.storytelling-demo{break-before:page}.demo-grid{grid-template-columns:1fr 1fr}.demo-card{break-inside:avoid}}
 </style>
+
+<script>
+(function(){
+  const sample = [
+    {id:'SIM01',duration:3.0,credits:96,courses:22,practical:0.23},
+    {id:'SIM02',duration:3.0,credits:104,courses:24,practical:0.25},
+    {id:'SIM03',duration:3.0,credits:91,courses:21,practical:0.20},
+    {id:'SIM04',duration:3.0,credits:110,courses:26,practical:0.28},
+    {id:'SIM05',duration:3.5,credits:112,courses:25,practical:0.27},
+    {id:'SIM06',duration:3.5,credits:118,courses:27,practical:0.30},
+    {id:'SIM07',duration:3.5,credits:107,courses:24,practical:0.24},
+    {id:'SIM08',duration:3.5,credits:126,courses:29,practical:0.32},
+    {id:'SIM09',duration:3.5,credits:121,courses:28,practical:0.31},
+    {id:'SIM10',duration:4.0,credits:124,courses:29,practical:0.33},
+    {id:'SIM11',duration:4.0,credits:132,courses:31,practical:0.35},
+    {id:'SIM12',duration:4.0,credits:119,courses:27,practical:0.29},
+    {id:'SIM13',duration:4.0,credits:140,courses:33,practical:0.38},
+    {id:'SIM14',duration:4.0,credits:135,courses:32,practical:0.36},
+    {id:'SIM15',duration:4.0,credits:128,courses:30,practical:0.34},
+    {id:'SIM16',duration:4.0,credits:145,courses:35,practical:0.40},
+    {id:'SIM17',duration:4.5,credits:139,courses:33,practical:0.37},
+    {id:'SIM18',duration:4.5,credits:151,courses:36,practical:0.42},
+    {id:'SIM19',duration:4.5,credits:143,courses:34,practical:0.39},
+    {id:'SIM20',duration:4.5,credits:160,courses:39,practical:0.45},
+    {id:'SIM21',duration:4.5,credits:154,courses:37,practical:0.43},
+    {id:'SIM22',duration:4.5,credits:147,courses:35,practical:0.41},
+    {id:'SIM23',duration:4.5,credits:166,courses:40,practical:0.47},
+    {id:'SIM24',duration:4.5,credits:158,courses:38,practical:0.44}
+  ];
+  const months = [
+    ['2024-01',4],['2024-02',5],['2024-03',4],['2024-04',7],['2024-05',6],['2024-06',8],
+    ['2024-07',7],['2024-08',10],['2024-09',9],['2024-10',11],['2024-11',10],['2024-12',13],
+    ['2025-01',12],['2025-02',14],['2025-03',13],['2025-04',16],['2025-05',15],['2025-06',17],
+    ['2025-07',16],['2025-08',19],['2025-09',18],['2025-10',20],['2025-11',19],['2025-12',22]
+  ];
+  const baseLayout = {paper_bgcolor:'#fff',plot_bgcolor:'#fff',font:{family:'Inter, Segoe UI, Arial, sans-serif',color:'#13243a',size:12},margin:{l:58,r:22,t:30,b:58},autosize:true};
+  const config = {responsive:true,displayModeBar:true,displaylogo:false,scrollZoom:false};
+  function pearson(a,b){
+    const ma=a.reduce((s,v)=>s+v,0)/a.length, mb=b.reduce((s,v)=>s+v,0)/b.length;
+    let numerator=0,da=0,db=0;
+    for(let i=0;i<a.length;i++){const x=a[i]-ma,y=b[i]-mb;numerator+=x*y;da+=x*x;db+=y*y}
+    return da&&db?numerator/Math.sqrt(da*db):null;
+  }
+  function draw(){
+    if(!window.Plotly)return;
+    const scatter=document.getElementById('demoScatter');
+    const line=document.getElementById('demoLineArea');
+    const heat=document.getElementById('demoCorrelation');
+    if(!scatter||!line||!heat)return;
+    const xs=sample.map(d=>d.duration), ys=sample.map(d=>d.credits);
+    const mx=xs.reduce((a,b)=>a+b,0)/xs.length,my=ys.reduce((a,b)=>a+b,0)/ys.length;
+    const slope=xs.reduce((s,x,i)=>s+(x-mx)*(ys[i]-my),0)/xs.reduce((s,x)=>s+(x-mx)**2,0);
+    const intercept=my-slope*mx;
+    const fitX=[Math.min(...xs),Math.max(...xs)],fitY=fitX.map(x=>intercept+slope*x);
+    const r=pearson(xs,ys),r2=r*r;
+    Plotly.newPlot(scatter,[
+      {type:'scatter',mode:'markers',name:'Synthetic observations',x:xs,y:ys,text:sample.map(d=>d.id),customdata:sample.map(d=>[d.courses,d.practical]),marker:{size:10,color:'#2563eb',opacity:.82,line:{color:'#fff',width:1}},hovertemplate:'%{text}<br>Duration: %{x:.1f} years<br>Credits (synthetic): %{y}<br>Courses (synthetic): %{customdata[0]}<br>Practical share: %{customdata[1]:.0%}<extra></extra>'},
+      {type:'scatter',mode:'lines',name:'OLS regression (demo)',x:fitX,y:fitY,line:{color:'#d97706',width:3,dash:'dash'},hovertemplate:'Fitted credits: %{y:.1f}<extra></extra>'}
+    ],{...baseLayout,height:360,title:{text:'Synthetic example · r = '+r.toFixed(2)+' · R² = '+r2.toFixed(2),font:{size:13}},xaxis:{title:'Duration (years)',dtick:.5},yaxis:{title:'Total credits (synthetic)',rangemode:'tozero'},legend:{orientation:'h',y:-.25},annotations:[{text:'SYNTHETIC DATA — NOT REAL PROGRAM RECORDS',xref:'paper',yref:'paper',x:.5,y:1.13,showarrow:false,font:{size:10,color:'#b45309'}}]},config);
+    Plotly.newPlot(line,[{type:'scatter',mode:'lines+markers',name:'Illustrative count',x:months.map(d=>d[0]),y:months.map(d=>d[1]),line:{color:'#0d9488',width:3},marker:{size:6},fill:'tozeroy',fillcolor:'rgba(13,148,136,0.18)',customdata:months.map(d=>'SIMULATED'),hovertemplate:'Month: %{x}<br>Illustrative record count: %{y}<br>Status: %{customdata}<extra></extra>'}],{...baseLayout,height:360,title:{text:'Synthetic monthly series · 24 months',font:{size:13}},xaxis:{title:'Month',tickangle:-35,nticks:8},yaxis:{title:'Illustrative count (synthetic)',rangemode:'tozero'},annotations:[{text:'SYNTHETIC SERIES — NOT HISTORICAL OBSERVATIONS',xref:'paper',yref:'paper',x:.5,y:1.13,showarrow:false,font:{size:10,color:'#b45309'}}]},config);
+    const variables=[
+      {key:'duration',label:'Duration (years)',values:sample.map(d=>d.duration)},
+      {key:'credits',label:'Credits (synthetic)',values:sample.map(d=>d.credits)},
+      {key:'courses',label:'Course count (synthetic)',values:sample.map(d=>d.courses)},
+      {key:'practical',label:'Practical share (synthetic)',values:sample.map(d=>d.practical)}
+    ];
+    const matrix=variables.map(a=>variables.map(b=>Number(pearson(a.values,b.values).toFixed(2))));
+    Plotly.newPlot(heat,[{type:'heatmap',x:variables.map(v=>v.label),y:variables.map(v=>v.label),z:matrix,zmin:-1,zmax:1,colorscale:[[0,'#b91c1c'],[.5,'#f8fafc'],[1,'#0f766e']],text:matrix.map(row=>row.map(v=>v.toFixed(2))),texttemplate:'%{text}',hovertemplate:'%{y} × %{x}<br>Pearson r: %{z:.2f}<extra></extra>',colorbar:{title:'Pearson r'}}],{...baseLayout,height:390,title:{text:'Synthetic correlation matrix',font:{size:13}},xaxis:{tickangle:-25,automargin:true},yaxis:{automargin:true,autorange:'reversed'},annotations:[{text:'SYNTHETIC DATA — CORRELATIONS ARE ILLUSTRATIVE ONLY',xref:'paper',yref:'paper',x:.5,y:1.13,showarrow:false,font:{size:10,color:'#b45309'}}]},config);
+  }
+  function whenReady(){if(window.Plotly){draw();return}window.addEventListener('plotly-ready',draw,{once:true});window.addEventListener('load',draw,{once:true})}
+  whenReady();
+  window.addEventListener('resize',()=>{['demoScatter','demoLineArea','demoCorrelation'].forEach(id=>{const n=document.getElementById(id);if(n&&window.Plotly&&n.data)window.Plotly.Plots.resize(n)})});
+})();
+</script>
+
 
 </body></html>
