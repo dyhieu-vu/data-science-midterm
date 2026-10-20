@@ -1,0 +1,25 @@
+sample_id,duration_years,total_credits_synthetic,curriculum_courses_synthetic,practical_course_share_synthetic,data_status,notes
+SIM01,3,96,22,0.23,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM02,3,104,24,0.25,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM03,3,91,21,0.2,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM04,3,110,26,0.28,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM05,3.5,112,25,0.27,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM06,3.5,118,27,0.3,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM07,3.5,107,24,0.24,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM08,3.5,126,29,0.32,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM09,3.5,121,28,0.31,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM10,4,124,29,0.33,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM11,4,132,31,0.35,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM12,4,119,27,0.29,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM13,4,140,33,0.38,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM14,4,135,32,0.36,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM15,4,128,30,0.34,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM16,4,145,35,0.4,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM17,4.5,139,33,0.37,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM18,4.5,151,36,0.42,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM19,4.5,143,34,0.39,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM20,4.5,160,39,0.45,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM21,4.5,154,37,0.43,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM22,4.5,147,35,0.41,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM23,4.5,166,40,0.47,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
+SIM24,4.5,158,38,0.44,SYNTHETIC_NOT_REAL,Created only to demonstrate scatter regression and correlation heatmap; do not cite as university data.
